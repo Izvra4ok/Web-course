@@ -290,13 +290,17 @@
     &:hover {
       &:before,
       &:after {
-        background-color: red;
+        background-color: white;
       }
     }
   }
 }
 .mobile__text{
   margin:9px 0px 0px 0px;
+}
+.mobile_link{
+  color:white;
+  @include nav_hover;
 }
 //mobile//
 //car//

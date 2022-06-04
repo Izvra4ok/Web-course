@@ -444,7 +444,7 @@ header {
 
 .sub__title_white {
   position: relative;
-  z-index: 5;
+  z-index: 0;
   color: black;
   background-color: #ffffff;
 }
@@ -777,11 +777,55 @@ header {
 }
 
 .mobile__item_plus:hover:before, .mobile__item_plus:hover:after {
-  background-color: red;
+  background-color: white;
 }
 
 .mobile__text {
   margin: 9px 0px 0px 0px;
+}
+
+.mobile_link {
+  color: white;
+}
+
+.mobile_link:before, .mobile_link:after {
+  position: relative;
+  content: "";
+  width: 0;
+  -webkit-transition: .5s all;
+  transition: .5s all;
+}
+
+.mobile_link:hover, .mobile_link:active {
+  color: white;
+  position: relative;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+.mobile_link:hover::before, .mobile_link:active::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: .5s all;
+  transition: .5s all;
+  content: "";
+  width: 50%;
+  height: 1px;
+  transition: .5s all;
+  background-color: white;
+}
+
+.mobile_link:hover::after, .mobile_link:active::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: "";
+  width: 50%;
+  height: 1px;
+  -webkit-transition: .5s all;
+  transition: .5s all;
+  background-color: white;
 }
 
 .car {
@@ -1294,6 +1338,10 @@ footer a:hover {
     z-index: 10;
   }
   .menu .menu__item {
+    width: 100%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
     padding: 0px 0px 0px 0px;
     border: 0;
     margin-top: 30px;
@@ -1307,18 +1355,11 @@ footer a:hover {
     top: 52px;
     z-index: 0;
   }
-  .menu__item {
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .menu__item .menu_link {
-    font-size: 10px;
-  }
   .logo__text {
     font-size: 11px;
   }
   .hamburger {
+    cursor: pointer;
     display: block;
     position: absolute;
     top: 50%;
@@ -1389,8 +1430,9 @@ footer a:hover {
 }
 
 @media (max-width: 575px) {
-  .menu__link {
-    font-size: 10px;
+  .menu_active {
+    width: 75%;
+    height: 100vh;
   }
   .logo__image {
     max-width: 110%;
@@ -1592,3 +1634,4 @@ footer a:hover {
 * {
   font-family: 'Roboto', sans-serif;
 }
+/*# sourceMappingURL=style.css.map */
