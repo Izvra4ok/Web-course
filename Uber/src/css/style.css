@@ -1427,6 +1427,178 @@ footer a:hover {
   .xs-visible {
     display: block;
   }
+  .header__sub_phone a:before, .header__sub_phone a:after {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .header__sub_phone a:hover, .header__sub_phone a:active {
+    color: white;
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .header__sub_phone a:hover::before, .header__sub_phone a:active::before {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .header__sub_phone a:hover::after, .header__sub_phone a:active::after {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+    background-color: white;
+  }
+  .menu__link:before, .menu__link:after {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .menu__link:hover, .menu__link:active {
+    color: white;
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .menu__link:hover::before, .menu__link:active::before {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .menu__link:hover::after, .menu__link:active::after {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+    background-color: white;
+  }
+  .header__btn:before, .header__btn:after {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .header__btn:hover, .header__btn:active {
+    border: none;
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+    background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    color: white;
+  }
+  .header__btn:hover::before, .header__btn:active::before {
+    position: relative;
+    background-color: white;
+  }
+  .header__btn:hover::after, .header__btn:active::after {
+    position: relative;
+    background-color: white;
+  }
+  .mobile_link:before, .mobile_link:after {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .mobile_link:hover, .mobile_link:active {
+    color: white;
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .mobile_link:hover::before, .mobile_link:active::before {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .mobile_link:hover::after, .mobile_link:active::after {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+    background-color: white;
+  }
+  .sub__title:before, .sub__title:after {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .sub__title:hover, .sub__title:active {
+    border: none;
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+    background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    color: white;
+  }
+  .sub__title:hover::before, .sub__title:active::before {
+    position: relative;
+    background-color: white;
+  }
+  .sub__title:hover::after, .sub__title:active::after {
+    position: relative;
+    background-color: white;
+  }
+  .first__btn:before, .first__btn:after {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .first__btn:hover, .first__btn:active {
+    border: none;
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+    background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    color: white;
+  }
+  .first__btn:hover::before, .first__btn:active::before {
+    position: relative;
+    background-color: white;
+  }
+  .first__btn:hover::after, .first__btn:active::after {
+    position: relative;
+    background-color: white;
+  }
+  .footer_links_main a:before, .footer_links_main a:after {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .footer_links_main a:hover, .footer_links_main a:active {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .footer_links_main a:hover::before, .footer_links_main a:active::before {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .footer_links_main a:hover::after, .footer_links_main a:active::after {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .footer_links_sub a:before, .footer_links_sub a:after {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .footer_links_sub a:hover, .footer_links_sub a:active {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .footer_links_sub a:hover::before, .footer_links_sub a:active::before {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .footer_links_sub a:hover::after, .footer_links_sub a:active::after {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+  }
 }
 
 @media (max-width: 575px) {

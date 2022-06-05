@@ -172,7 +172,7 @@
 
 /////////////////////////////////////////////////////////////////////////////
 @media (max-width:768px) {
-
+  
   //header//
   .menu {
     padding: 20px 15px;
@@ -332,6 +332,42 @@
   .xs-visible {
     display: block;
   }
+    .header__sub_phone {
+  & a{
+    @include mobile_nav_hover;
+  }
+}
+  .menu__link {
+
+  @include mobile_nav_hover;
+}
+.header__btn {
+  @include mobile_btn_hover;
+}
+.mobile_link{
+  @include mobile_nav_hover;
+}
+.sub {
+  &__title {
+    @include mobile_btn_hover;
+  }
+}
+.first__btn {
+
+  @include mobile_btn_hover;
+}
+.footer{
+	&_links{
+		&_main {
+			a{
+        @include mobile_footer_hover;
+      }}
+		&_sub{
+			a {
+        @include mobile_footer_hover;
+      }}
+
+    }}
 }
 
 /////////////////////////////////////////////////////////////
